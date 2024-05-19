@@ -1,5 +1,5 @@
 # MineProxy
-MineProxy is python script it does more than just check if proxies are working.
+MineProxy is python script it does more than just check proxies are working.
 It can gather proxies from your computer or mine from online and test them to see if they're active, and then save the ones that work best into a new file.
 
 ### Features
@@ -9,7 +9,7 @@ It can gather proxies from your computer or mine from online and test them to se
   - Proxy Status Check:<br>Tests each proxy to determine if it is online.
   - Filtering:<br>Filters proxies based on their type.
   - Saving Online Proxies:<br>Saves only the online proxies of a specified type to a new file.
-
+  - Support Bulk Scale Proxies:<br>Deterrmine a large amount of proxies from a file or online
 ### Installation
 
   1. Clone the repository or download the script files.
@@ -31,7 +31,7 @@ It can gather proxies from your computer or mine from online and test them to se
      http://123.123.123.123:8080
      https://234.234.234.234:8080
      socks4://345.345.345.345:1080
-    ```
+     ```
   2. test host URLs file:<br>Ensure you have a text file (host.txt) containing URLs to be used for proxy testing.if you need more add there<br>
   3. Run the script:
      ```sh
